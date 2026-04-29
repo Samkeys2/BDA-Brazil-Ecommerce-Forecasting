@@ -1,30 +1,18 @@
-# BDA Brazil Ecommerce Forecasting
+# Brazil E-commerce Forecasting Project
 
-## Project Title
-Improving Supply Chain Efficiency Through Regional Demand Forecasting: Evidence from Brazilian E-commerce Data
+This Business Data Analytics project uses Brazilian e-commerce data to develop demand forecasting models that support supply chain planning and operational efficiency.
 
-## Objective
-This project analyzes Brazilian e-commerce transaction data to examine regional demand variability and improve supply chain efficiency through forecasting models.
-
-## Methods Used
-- Data Cleaning & Preprocessing
-- Exploratory Data Analysis
-- Regional Demand Analysis
-- ARIMA Forecasting
-- Random Forest Regression
-- Model Performance Comparison
+## Models Evaluated
+- Naive Benchmark
+- ARIMA
+- Random Forest
 
 ## Key Findings
-- Strong regional differences in demand
-- Delivery performance varies by state
-- Random Forest outperformed ARIMA
-- Forecasting can support better logistics planning
+- Random Forest achieved the strongest overall forecasting performance.
+- Demand patterns showed weekly seasonality and short-term persistence.
+- Regional differences in delivery performance were identified across Brazilian states.
 
-## Files
-- Colab notebook (.ipynb)
-- Final report (PDF to be added)
-
-## Student
-Babalola Samuel Damilola
-MSc in IT for Business Data Analytics
-Business Data Analytics project: Improving Supply Chain Efficiency through Regional Demand Forecasting using Brazilian E-commerce Data
+## Repository Contents
+- Brazil_Ecommerce_Forecasting_Final.ipynb
+- data/
+- README.md
